@@ -87,5 +87,17 @@
       "sha1": "ffe074f050e215c80d7d76f740f8c1095a8da403"
     },
     "second_endpoint_identical": true
+  },
+  {
+    "group": "com.android.tools.build",
+    "name": "aapt2",
+    "version": "9.4.1-15978811",
+    "artifact": "aapt2-9.4.1-15978811-linux.jar",
+    "url": "https://dl.google.com/dl/android/maven2/com/android/tools/build/aapt2/9.4.1-15978811/aapt2-9.4.1-15978811-linux.jar",
+    "sha256": "f5bebd466ecf14d341fd465f2756a16d86052f29eb4532003d5ff7bcffd08de5",
+    "publisher_checksums": {
+      "sha1": "6ad07b566daaefa1c2721255637ec137c93580a6"
+    },
+    "second_endpoint_identical": true
   }
 ]
