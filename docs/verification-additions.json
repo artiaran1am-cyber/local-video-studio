@@ -1,0 +1,91 @@
+[
+  {
+    "group": "com.google.guava",
+    "name": "guava-parent",
+    "version": "33.4.0-jre",
+    "artifact": "guava-parent-33.4.0-jre.pom",
+    "url": "https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/33.4.0-jre/guava-parent-33.4.0-jre.pom",
+    "sha256": "3a499ed34a0d9ee0f1bcc39230021a1cd4e2f7dd0426ab6844f585465d41dcd7",
+    "publisher_checksums": {
+      "sha1": "ee79b87abc4ef9b3591db13c59de368c7b03dc79"
+    },
+    "bytes": 21100,
+    "second_endpoint_identical": true
+  },
+  {
+    "group": "org.junit",
+    "name": "junit-bom",
+    "version": "5.10.2",
+    "artifact": "junit-bom-5.10.2.module",
+    "url": "https://repo.maven.apache.org/maven2/org/junit/junit-bom/5.10.2/junit-bom-5.10.2.module",
+    "sha256": "de23b114b3e4119a8fe6eb17bed5a3852816698bace67071579d6d927ebb080a",
+    "publisher_checksums": {
+      "sha512": "957b48ab80279e57b6ec085df9fe779242a63989496fdb3126dcfd145e063759e0638ffdaf29c961d6cbe594fb4132afb9f507234eb7ccb6985c6821ffb0f33b"
+    },
+    "bytes": 6995,
+    "second_endpoint_identical": true
+  },
+  {
+    "group": "org.junit",
+    "name": "junit-bom",
+    "version": "5.11.0-M2",
+    "artifact": "junit-bom-5.11.0-M2.module",
+    "url": "https://repo.maven.apache.org/maven2/org/junit/junit-bom/5.11.0-M2/junit-bom-5.11.0-M2.module",
+    "sha256": "86477abcf490d6ca059aa9973cb108d22a506f49d1a5569bb32cc6cbf43c2cce",
+    "publisher_checksums": {
+      "sha512": "dad2d88ed39120a5550e728dae02e84c22f89cb5799c9a4197b09446155e5b6a04c916a1e9547c2e84ba51b0524a4be5bcda356a261a267106eda74dc442be6d"
+    },
+    "bytes": 7104,
+    "second_endpoint_identical": true
+  },
+  {
+    "group": "org.jetbrains.kotlin",
+    "name": "kotlin-gradle-plugins-bom",
+    "version": "2.2.10",
+    "artifact": "kotlin-gradle-plugins-bom-2.2.10.module",
+    "url": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-gradle-plugins-bom/2.2.10/kotlin-gradle-plugins-bom-2.2.10.module",
+    "sha256": "e4b7dd0b5570aa7ae6597d1f479bcea94e78e12735fa86f80afa95e7014efed6",
+    "publisher_checksums": {
+      "sha1": "16a998c7353b3ed44556c057d5db34dc3037bf69"
+    },
+    "bytes": 6691,
+    "second_endpoint_identical": true
+  },
+  {
+    "group": "org.jetbrains.kotlin",
+    "name": "kotlin-gradle-plugins-bom",
+    "version": "2.2.10",
+    "artifact": "kotlin-gradle-plugins-bom-2.2.10.pom",
+    "url": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-gradle-plugins-bom/2.2.10/kotlin-gradle-plugins-bom-2.2.10.pom",
+    "sha256": "c0a5a21a4e6eec4d8bb6a2c491fac42f35ab9f08dd2af6bedb085715ac805296",
+    "publisher_checksums": {
+      "sha1": "54be3a1514c0ee6aca25846f8af27b22f6c5488c"
+    },
+    "bytes": 4623,
+    "second_endpoint_identical": true
+  },
+  {
+    "group": "org.jetbrains.kotlinx",
+    "name": "kotlinx-coroutines-bom",
+    "version": "1.10.2",
+    "artifact": "kotlinx-coroutines-bom-1.10.2.pom",
+    "url": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-bom/1.10.2/kotlinx-coroutines-bom-1.10.2.pom",
+    "sha256": "faf0c6538e53ddc0499a63664d8e763c216580b2e18e722ccbdf1b431a6afe26",
+    "publisher_checksums": {
+      "sha1": "bc3b109335d4fa0106a1e17b7863e388ef93c553"
+    },
+    "second_endpoint_identical": true
+  },
+  {
+    "group": "org.jetbrains.kotlinx",
+    "name": "kotlinx-coroutines-bom",
+    "version": "1.8.0",
+    "artifact": "kotlinx-coroutines-bom-1.8.0.pom",
+    "url": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-bom/1.8.0/kotlinx-coroutines-bom-1.8.0.pom",
+    "sha256": "1239e9dbe1397cd5971342956b2511bc3ace7b641842e4372a088dcfa8b9ad55",
+    "publisher_checksums": {
+      "sha1": "ffe074f050e215c80d7d76f740f8c1095a8da403"
+    },
+    "second_endpoint_identical": true
+  }
+]
