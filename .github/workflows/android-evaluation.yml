@@ -2,6 +2,10 @@ name: Android editor evaluation
 
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/android-evaluation.yml'
 
 permissions:
   contents: read
@@ -56,7 +60,7 @@ jobs:
           SDK_MANAGER="$SDK_ROOT/cmdline-tools/latest/bin/sdkmanager"
           test -x "$SDK_MANAGER"
           "$SDK_MANAGER" --list_installed > evaluation/sdk-before.txt
-          "$SDK_MANAGER" 'platforms;android-37' 'build-tools;37.0.0' 'platform-tools' 2>&1 | tee evaluation/sdk-install.txt
+          "$SDK_MANAGER" 'platforms;android-37.0' 'build-tools;37.0.0' 'platform-tools' 2>&1 | tee evaluation/sdk-install.txt
           "$SDK_MANAGER" --list_installed > evaluation/sdk-after.txt
 
       - name: Build evaluation APK
